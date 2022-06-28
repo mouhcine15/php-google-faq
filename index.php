@@ -29,6 +29,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div><?php 
+        foreach($faqs as $faq) { ?>
+            <h1><?= $faq['question'] ?></h1>
+        <?php 
+        } ?>
+    </div>
 </body>
 </html>
