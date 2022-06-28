@@ -10,7 +10,8 @@
         ],
         [
             'question' => 'domanda numero 3',
-            'answer' => 'rsposta numero 3'
+            'answer' => 'rsposta numero 3',
+            'answernum' => 'risposta numerata'
         ],
         [
             'question' => 'domanda numero 4',
