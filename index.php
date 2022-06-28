@@ -31,7 +31,7 @@
 <body>
     <div><?php 
         foreach($faqs as $faq) { ?>
-            <h1><?= $faq['question'] ?></h1>
+            <h2><?= $faq['question'] ?></h2> <div><?= $faq['answer'] ?></div>
         <?php 
         } ?>
     </div>
